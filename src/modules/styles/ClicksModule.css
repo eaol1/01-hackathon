@@ -1,0 +1,22 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@keyframes change-background {
+  0% {
+    color: #136fcc;
+  }
+  50% {
+    color: #0bb490;
+  }
+  100% {
+    color: #ca2843;
+  }
+}
+
+.container_clicks_count {
+  font-size: xx-large;
+  font-weight: bold;
+  animation: change-background 4s ease infinite;
+}

@@ -1,0 +1,40 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#container {
+  max-width: 600px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid darkcyan;
+  padding: 15px;
+}
+.container_timer_question {
+  text-align: center;
+  max-width: 400px;
+  margin: auto;
+}
+.container_timer_question h2 {
+  margin-bottom: 15px;
+}
+.container_timer_question input {
+  border: 1px solid darkcyan;
+}
+.btn_timer {
+  background-color: darkcyan;
+  padding: 10px 20px;
+  margin-top: 15px;
+  border: 1px solid darkcyan;
+  color: #ffffff;
+}
+.btn_timer:hover {
+  background-color: darkslategray;
+  border: 1px solid darkslategray;
+}
+.container_timer {
+  text-align: center;
+  max-width: 400px;
+  margin: auto;
+}

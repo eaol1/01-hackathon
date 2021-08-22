@@ -1,0 +1,40 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.weather-container {
+  max-width: 600px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid darkcyan;
+  padding: 15px;
+  background-color: #ffffff;
+}
+
+.weather-form input {
+  padding: 10px;
+  border: 1px solid darkcyan;
+  width: 100%;
+  margin: 10px 0;
+}
+
+.weather-form .btn {
+  background-color: darkcyan;
+  padding: 10px 20px;
+  border: 1px solid darkcyan;
+  color: #ffffff;
+}
+.weather-form .btn:hover {
+    background-color: darkslategray;
+    border: 1px solid darkslategray;
+}
+
+.weather-info {
+  text-align: left;
+  border-left: 1px solid darkcyan;
+  padding-left: 10px;
+  margin-left: 10px;
+}
