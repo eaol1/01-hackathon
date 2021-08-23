@@ -1,5 +1,4 @@
 import { Module } from '../core/module';
-
 export class WeatherModule extends Module {
   #API_KEY
   #form
@@ -7,7 +6,7 @@ export class WeatherModule extends Module {
   #weatherObj
   constructor(type, text) {
     super(type, text);
-    this.#API_KEY = 'bac6fa435e78fb1f8cd0aac8cb75c179';
+    this.#API_KEY = process.env.API_KEY;
     this.form = undefined;
     this.#data = undefined;
     this.#weatherObj = {
